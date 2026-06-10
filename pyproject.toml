@@ -8,6 +8,7 @@ dependencies = ["prompt"]
 
 [project.scripts]
 VD-games = "vd_games.scripts.VD_games:main"
+VD-even = "vd_games.scripts.VD_even:main"
 
 [build-system]
 requires = ["hatchling"]
@@ -15,3 +16,6 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["vd_games"]
+
+[project.optional-dependencies]
+dev = ["ruff"]
