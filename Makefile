@@ -1,13 +1,13 @@
 .PHONY: install
 
 install:
- uv sync
+	uv sync
 
 VD-games:
- uv run VD-games
+	uv run VD-games
 
 build:
- uv build
+	uv build
 
 package-install:
- uv tool install dist/*.whl
+	uv tool install dist/*.whl

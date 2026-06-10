@@ -4,10 +4,10 @@ version = "0.1.0"
 description = "VD Games project"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = ["prompt"]
 
 [project.scripts]
-VD-games = "vd_games.main:main"
+VD-games = "vd_games.scripts.VD_games:main"
 
 [build-system]
 requires = ["hatchling"]
