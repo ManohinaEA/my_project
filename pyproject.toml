@@ -11,6 +11,8 @@ VD-games = "vd_games.scripts.VD_games:main"
 VD-even = "vd_games.scripts.VD_even:main"
 VD-calc = "vd_games.scripts.VD_calc:main"
 VD-gcd = "vd_games.scripts.VD_gcd:main"
+VD-progression = "vd_games.scripts.VD_progression:main"
+VD-prime = "vd_games.scripts.VD_prime:main"
 
 [build-system]
 requires = ["hatchling"]
