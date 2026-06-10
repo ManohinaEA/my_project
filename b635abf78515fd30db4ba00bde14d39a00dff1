@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 7e31baaf7458fb7f7b9154a9563f395643766f76 daniil <daniil@debian.local> 1781122986 +0300	commit (initial): Initial commit: VD-games project with Makefile and package structure
+7e31baaf7458fb7f7b9154a9563f395643766f76 7e31baaf7458fb7f7b9154a9563f395643766f76 daniil <daniil@debian.local> 1781122986 +0300	Branch: renamed refs/heads/master to refs/heads/main
